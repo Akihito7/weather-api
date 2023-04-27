@@ -1,0 +1,126 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+main{
+    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.temperature{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 34rem;
+    height: 30rem;
+    background-color: #3EA3AF;
+    padding: 5rem;
+    border-radius: 1rem;
+    
+}
+
+.search{
+     
+    font-size: 5.8rem;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 4rem;
+
+}
+
+input{
+
+    width: 100%;
+    height: 3rem;
+
+    display: flex;
+    align-items: center; 
+
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem 0 0 .5rem;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.buttonSearch{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    height: 3rem;
+
+    padding: 1rem;
+    border: none;
+    border-radius: 0 .5rem .5rem 0rem;
+
+    cursor: pointer;
+
+}
+
+.buttonSearch:hover{
+
+    background-color: #c0c0c0 ;
+
+}
+
+.graus{
+    color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center ;
+   justify-content: center;
+   margin-bottom: 2.2rem;
+
+}
+.infoMain{
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 400;
+
+}
+
+.grausTwo{
+    color: #ffffff;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.hiden{
+    color: transparent;
+
+}
+#mainH3{
+    font-size: 1.8rem;
+}
+
+
+
