@@ -2,7 +2,7 @@ import { variaveis } from "./variaveis.js";
 
 class buscarTemperatura{
     
-    static search(nameCity){
+    static async search(nameCity){
         
         const URL = `http://api.weatherapi.com/v1/current.json?key=aaf989f67863408ab88160156232604&q=${nameCity}&aqi=no`;
         
